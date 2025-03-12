@@ -1,5 +1,5 @@
 layers:
-  LAYER0:
+  CAPA-0:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -55,16 +55,16 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - layer1
   - $$mdi:apple-keyboard-option$$
+  - CAPA-1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
+  - Capa-2
   - $$mdi:apple-keyboard-option$$
-  - '2'
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
-  layer1:
+  CAPA-1:
   - {t: '`', s: '~'}
   - F1
   - F2
@@ -120,8 +120,8 @@ layers:
   - $$mdi:volume-off$$
   - \
   - {t: ;, s: ':'}
-  - {t: '''', s: '"', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '''', s: '"'}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -129,7 +129,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '=', s: +}
   - {t: '-', s: _}
-  '2':
+  Capa-2:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -190,8 +190,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
