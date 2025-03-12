@@ -118,17 +118,17 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
-  - RGB HUD
-  - RGB HUI
-  - {type: held}
+  - \
+  - {t: ;, s: ':'}
+  - {t: '''', s: '"', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ']', s: '}'}
+  - {t: '=', s: +}
+  - {t: '-', s: _}
   '2':
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
