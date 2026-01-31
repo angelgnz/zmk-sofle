@@ -84,11 +84,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1                &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7             &kp F8             &kp F9     &kp F10    &kp F11
-&trans      &trans                &kp UP_ARROW    &trans           &trans           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END            &kp UP             &kp HOME   &trans     &kp F12
-&trans      &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT           &kp DOWN           &kp RIGHT  &trans     &trans
-&trans      &rgb_ug RGB_OFF       &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &kp INSERT         &trans     &trans     &trans
-&kp C_MUTE  &kp NON_US_BACKSLASH  &kp APOSTROPHE  &kp BACKSLASH    &trans           &trans             &mkp LCLK        &kp RIGHT_ALT    &kp RIGHT_CONTROL  &kp RIGHT_BRACKET  &kp EQUAL  &kp MINUS
+&kp GRAVE   &kp F1                &kp F2          &kp F3           &kp F4           &kp F5             &kp K_VOLUME_UP    &kp F6           &kp F7             &kp F8             &kp F9     &kp F10    &kp F11
+&trans      &trans                &kp UP_ARROW    &trans           &trans           &trans             &kp K_VOLUME_DOWN  &kp PG_UP        &kp END            &kp UP             &kp HOME   &trans     &kp F12
+&trans      &kp LEFT_ARROW        &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &trans             &kp K_PREVIOUS     &kp PG_DN        &kp LEFT           &kp DOWN           &kp RIGHT  &trans     &trans
+&trans      &rgb_ug RGB_OFF       &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &kp K_NEXT         &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &kp INSERT         &trans     &trans     &trans
+&kp C_MUTE  &kp NON_US_BACKSLASH  &kp APOSTROPHE  &kp BACKSLASH    &trans           &trans             &kp K_PLAY_PAUSE   &kp RIGHT_ALT    &kp RIGHT_CONTROL  &kp RIGHT_BRACKET  &kp EQUAL  &kp MINUS
             >;
 
             display-name = "layer1";
